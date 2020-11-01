@@ -1,0 +1,413 @@
+
+#fst
+{
+    background-color: #303f9f;
+    background-image: linear-gradient(135deg, #d500f9, #303f9f);
+
+        height: 50%;
+        width: 100%;
+        border-radius: 0px 0px 25px 25px;
+        top: 0px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    
+}
+
+#topleft
+{
+    
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto auto auto auto;
+    flex-direction: column;
+}
+#topright
+{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: auto auto auto auto;
+}
+#txt
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    font-size: 45px;
+    line-height: 80%;
+   
+}
+
+#querybox
+{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+
+}
+#searchbox
+{
+    margin: 0 auto auto auto;
+    height: 80%;
+    width: 64%;
+    border-radius: 10px;
+    
+}
+.ffam
+{
+    font-family: sans-serif;
+    color:white;
+    text-decoration: none;
+}
+.ffam2
+{
+    font-family: sans-serif;
+    color: #d500f9;
+    text-decoration: none;
+}
+
+
+#txt2
+{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 80%;
+}
+#item
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+height: 25%;
+justify-content: center;
+}
+.items
+{
+    border:10px solid  #303f9f;
+    height: 70%;
+    width: 18%;
+    margin-left: 2%;
+    margin-top:2% ;
+    display: grid;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+a:hover
+{
+   
+}
+nav{
+    
+    background: #303f9f;
+    /*background-image: linear-gradient(135deg, #d500f9, #303f9f);*/
+
+}
+nav ul{
+    float: right;
+}
+.item
+{
+    text-transform:capitalize;
+    display: inline-block;
+    
+}
+.colcard
+{
+    
+    margin-left:8px;
+    margin-right:8px;
+   /* color:white;*/
+    border: 2px solid white;
+   /* background-color: red; /* For browsers that do not support gradients 
+    background-image: linear-gradient(135deg, #b39ddb,#4527a0);*/
+    transition:.5s;
+    background-color: #303f9f;
+    background-image: linear-gradient(135deg, #66bb6a,#00897b);
+   
+    
+}
+.colcard:hover
+{
+    transform: scale(1.15);
+    z-index:2;
+}
+
+.nav_col
+{
+    background-color: #2196f3;
+    /*background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(135deg,#ffff00,#ff5722);
+    
+}
+.search
+{
+    width: 100%;
+    height: 80%;
+    
+
+}
+i:hover
+{
+    text-decoration: none;
+}
+
+.cam
+{
+    height: 100%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.white_txt
+{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.item_bar
+{
+    background-color: #ffff;
+    height: 100%;
+    width: 50%;
+   
+}
+
+.dropdown_col
+{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(135deg, #ffff8d,#ff8a65);
+}
+
+
+@media screen and (max-width:400px)
+{
+    #fst{
+
+        height: 50%;
+        width: 116%;
+    flex-direction: column;
+    }
+
+    #item
+    {
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    .nav_col
+    {
+        visibility: hidden;
+    }
+    #topright
+    {
+        width: 100%;
+        height: 50%;
+        margin: auto auto auto auto;
+    }
+}
+.s1
+{
+    display: flex;
+    flex-direction: column;
+}
+@media  screen and (max-width:400px)
+{
+    .colcard
+    {
+        margin-top:15px;
+        
+    }
+    #txt
+    {
+        font-size: 30px;
+    }
+    .ffam
+    {
+        font-size: 25px;
+    }
+
+    .item
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
+.cam
+{
+    border-radius: 100%;
+}
+.glass
+{
+    position: relative;
+top: 0px;
+}
+
+.srh_btn
+{
+    height: 80%;
+position: relative;
+left: -5%;
+top: -16px;
+color: #bdbdbd;
+border-radius: 12px;
+background-color: #ffff;
+border-color: #fafafa;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #bdbdbd;
+}
+
+.footer
+{
+    background-color: #424242;
+    height: 50%;
+width: 100%;
+}
+
+.bdy
+{
+    display: flex;
+    flex-direction: row;
+}
+#us
+{
+    width: 50%;
+    color: #757575;
+    height: 100%;
+}
+
+.shft
+{
+    display: flex;
+    justify-content: center;
+}
+#description
+{
+    display: flex;
+justify-content: center;
+flex-direction: column;
+padding-left: 11%;
+font-family: sans-serif;
+color: #616161;
+}
+.strt
+{
+	border-radius: 20px;
+	width: 15%;
+	position: relative;
+	left: 70%;
+
+    border-radius: 20px;
+    border-color: #ffff;
+    background-color: #303f9f;
+    background-image: linear-gradient(135deg, #ff5722,#ffff00);
+    font-family: sans-serif;
+    color:#ffff;
+    line-height: 180%;
+    top:25%;
+    
+    box-shadow: none;
+    
+}
+button:hover
+{
+    background-color: black;
+}
+.mdl
+{
+   
+    font-size: 10px;
+    line-height: 15px;
+
+}
+.stats
+{
+    width: 100%;
+    
+}
+.stat
+{
+    background-color: #303f9f;
+    background-image: linear-gradient(135deg, #0277bd,#4fc3f7);
+    text-align: center;
+    box-shadow: 0px 1px 1px 0px;
+}
+.colcard2
+{
+    margin-left:8px;
+    margin-right:8px;
+   /* color:white;*/
+    border: 2px solid white;
+   /* background-color: red; /* For browsers that do not support gradients 
+    background-image: linear-gradient(135deg, #b39ddb,#4527a0);*/
+    transition:.5s;
+    
+    background-image: linear-gradient(135deg, #ff1744,#ff4081);
+}
+.colcard2:hover
+{
+    transform: scale(1.15);
+    z-index:2;
+}
+.testimonial
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.colcard3
+{
+    background-color: #303f9f;
+    background-image: linear-gradient(135deg, #d500f9, #303f9f);
+    margin: 0px 55px 0px 55px ;
+
+    box-shadow: 0px 1px 1px 0px;
+}
+.colcard3:hover
+{
+    transform: scale(1);
+}
+.imsz
+{
+    width: 60%;
+height: 40%;
+margin: 14px 38px;
+}
+
+h5{
+    font-family: sans-serif;
+    color: white;
+}
+
+h6{
+    font-family: sans-serif;
+    color: white;
+}
+.deep_gray
+{
+    color:#616161;
+    text-decoration: solid;
+}
+.black
+{
+    color:black;
+}
