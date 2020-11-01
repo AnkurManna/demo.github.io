@@ -148,6 +148,7 @@ nav ul{
     background-color: #2196f3;
     /*background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(135deg,#ffff00,#ff5722);
+    color:black;
     
 }
 .search
@@ -193,58 +194,14 @@ i:hover
 
 @media screen and (max-width:400px)
 {
-    #fst{
-
-        height: 50%;
-        width: 116%;
-    flex-direction: column;
-    }
-
-    #item
-    {
-        display: flex;
-        flex-direction: column;
-      
-    }
-
-    .nav_col
-    {
-        visibility: hidden;
-    }
-    #topright
-    {
-        width: 100%;
-        height: 50%;
-        margin: auto auto auto auto;
-    }
+   
 }
 .s1
 {
     display: flex;
     flex-direction: column;
 }
-@media  screen and (max-width:400px)
-{
-    .colcard
-    {
-        margin-top:15px;
-        
-    }
-    #txt
-    {
-        font-size: 30px;
-    }
-    .ffam
-    {
-        font-size: 25px;
-    }
 
-    .item
-    {
-        display: flex;
-        flex-direction: row;
-    }
-}
 .cam
 {
     border-radius: 100%;
@@ -313,7 +270,7 @@ color: #616161;
 	border-radius: 20px;
 	width: 15%;
 	position: relative;
-	left: 70%;
+	left: 80%;
 
     border-radius: 20px;
     border-color: #ffff;
@@ -370,16 +327,20 @@ button:hover
 .testimonial
 {
     display: flex;
-    flex-direction: row;
+    
     justify-content: center;
+}
+.person
+{
+    display: flex;
 }
 
 .colcard3
 {
     background-color: #303f9f;
-    background-image: linear-gradient(135deg, #d500f9, #303f9f);
-    margin: 0px 55px 0px 55px ;
-
+    background-image: linear-gradient(135deg,  #1a237e,#5e35b1);
+    margin: 0px 0px 0px 10px;
+    height:68%;
     box-shadow: 0px 1px 1px 0px;
 }
 .colcard3:hover
@@ -390,7 +351,7 @@ button:hover
 {
     width: 60%;
 height: 40%;
-margin: 14px 38px;
+margin: auto auto;
 }
 
 h5{
@@ -410,4 +371,145 @@ h6{
 .black
 {
     color:black;
+}
+.tog_btn
+{
+    background-color: black;
+    height:25px;
+}
+@media  screen and (max-width:770px)
+{
+    .colcard
+    {
+        margin-top:15px;
+        
+    }
+    #txt
+    {
+        font-size: 30px;
+    }
+    .ffam
+    {
+        font-size: 13px;
+    }
+
+    
+
+    .bdy
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .item_bar
+    {
+        width: 100%;
+    }
+    .colcard
+    {
+        
+        margin-top: 15px;
+width: 20%;
+font-size: 4px;
+margin-left: 0px;
+height: 48%;
+    }
+
+    #fst{
+
+        height: 50%;
+        width: 100%;
+    flex-direction: column;
+    }
+
+    #item
+    {
+        display: flex;
+        flex-direction: row;
+      
+    }
+    #txt2
+    {
+        text-align: center;
+    }
+
+  
+    #topright
+    {
+        width: 100%;
+        height: 50%;
+        margin: auto auto auto auto;
+    }
+    .white_txt
+    {
+        font-size: 8px;
+    }
+
+    #us
+    {
+        width: 100%;
+    }
+    .shft
+    {
+        font-size: 25px;
+    }
+    #description
+    {
+        padding-left: 0;
+    }
+    h4{
+        font-size: 15px;
+        text-align: center;
+    }
+    .strt
+    {
+        line-height: 125%;
+        font-size: 10px;
+    }
+
+    .colcard2
+    {
+    margin-top: 15px;
+    width: 20%;
+    font-size: 4px;
+    margin-left: 0px;
+    height: 48%;
+    text-align: center;
+    }
+
+    #searchbox
+    {
+        height: 55%;
+width: 50%;
+    }
+
+    .srh_btn
+    {
+        height: 59%;
+    position: relative;
+    left: -5%;
+    top: -6px;
+    color: #bdbdbd;
+    border-radius: 12px;
+    background-color: #ffff;
+    border-color: #fafafa;
+    }
+
+    .testimonial
+    {
+        display: block;
+    }
+
+    .black
+    {
+        font-size: 10px;
+    }
+    .colcard3
+    {
+        margin: 0px 7px 0px 7px;
+    }
+    .person
+    {
+        display: flex;
+        justify-content: center;
+    }
 }
