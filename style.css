@@ -223,9 +223,13 @@ top: 0px;
     color: #bdbdbd;
     border-radius: 4px;
     background-color: #d9d9d9d9;
-    border-color: #fafafa;
+   
     line-height: 36px;
     border-radius: 0px 10px 10px 0px;
+}
+textarea
+{
+    height: 20px;
 }
 
 .heading
@@ -488,15 +492,15 @@ width: 50%;
 
     .srh_btn
     {
-        height: 82%;
+        height: 55%;
         position: relative;
-        left: -1%;
-        top: -20px;
+        left: -2%;
+        top: -10px;
         color: #bdbdbd;
         border-radius: 4px;
         background-color: #d9d9d9d9;
-        border-color: #fafafa;
-        line-height: 36px;
+        
+        line-height: -24px;
         border-radius: 0px 10px 10px 0px;
     }
 
