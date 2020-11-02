@@ -216,11 +216,11 @@ top: 0px;
 {
     height: 80%;
 position: relative;
-left: -5%;
-top: -16px;
+left: -6%;
+top: -18px;
 color: #bdbdbd;
-border-radius: 12px;
-background-color: #ffff;
+border-radius: 5px;
+background-color: #dbdbdbdb;
 border-color: #fafafa;
 }
 
@@ -483,15 +483,14 @@ width: 50%;
     }
 
     .srh_btn
-    {
-        height: 59%;
-    position: relative;
-    left: -5%;
-    top: -6px;
-    color: #bdbdbd;
-    border-radius: 12px;
-    background-color: #ffff;
-    border-color: #fafafa;
+    {height: 55%;
+        position: relative;
+        left: -5%;
+        top: -6px;
+        color: #bdbdbd;
+        border-radius: 4px;
+        background-color: #d9d9d9d9;
+        border-color: #fafafa;
     }
 
     .testimonial
