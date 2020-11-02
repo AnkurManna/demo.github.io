@@ -215,7 +215,7 @@ top: 0px;
 
 .srh_btn
 {
-    height: 55%;
+    height: 82%;
     position: relative;
     left: -1%;
     top: -20px;
@@ -223,7 +223,7 @@ top: 0px;
     border-radius: 4px;
     background-color: #d9d9d9d9;
     border-color: #fafafa;
-    line-height: 48px;
+    line-height: 36px;
     border-radius: 0px 10px 10px 0px;
 }
 
@@ -487,16 +487,16 @@ width: 50%;
 
     .srh_btn
     {
-        height: 55%;
-    position: relative;
-    left: -1%;
-    top: -20px;
-    color: #bdbdbd;
-    border-radius: 4px;
-    background-color: #d9d9d9d9;
-    border-color: #fafafa;
-    line-height: 48px;
-    border-radius: 0px 10px 10px 0px;
+        height: 82%;
+        position: relative;
+        left: -1%;
+        top: -20px;
+        color: #bdbdbd;
+        border-radius: 4px;
+        background-color: #d9d9d9d9;
+        border-color: #fafafa;
+        line-height: 36px;
+        border-radius: 0px 10px 10px 0px;
     }
 
     .testimonial
