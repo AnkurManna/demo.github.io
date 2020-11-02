@@ -57,6 +57,7 @@
     height: 80%;
     width: 64%;
     border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
     
 }
 .ffam
@@ -214,14 +215,16 @@ top: 0px;
 
 .srh_btn
 {
-    height: 80%;
-position: relative;
-left: -5%;
-top: -18px;
-color: #bdbdbd;
-border-radius: 5px;
-background-color: #dbdbdbdb;
-border-color: #fafafa;
+    height: 55%;
+    position: relative;
+    left: -1%;
+    top: -20px;
+    color: #bdbdbd;
+    border-radius: 4px;
+    background-color: #d9d9d9d9;
+    border-color: #fafafa;
+    line-height: 48px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .heading
@@ -483,14 +486,17 @@ width: 50%;
     }
 
     .srh_btn
-    {height: 55%;
-        position: relative;
-        left: -4%;
-    top: -6px;
-        color: #bdbdbd;
-        border-radius: 4px;
-        background-color: #d9d9d9d9;
-        border-color: #fafafa;
+    {
+        height: 55%;
+    position: relative;
+    left: -1%;
+    top: -20px;
+    color: #bdbdbd;
+    border-radius: 4px;
+    background-color: #d9d9d9d9;
+    border-color: #fafafa;
+    line-height: 48px;
+    border-radius: 0px 10px 10px 0px;
     }
 
     .testimonial
